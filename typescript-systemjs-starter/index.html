@@ -1,0 +1,20 @@
+<html>
+<head>
+    <title>Typescript SystemJS</title>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/systemjs/0.19.26/system.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/typescript/1.9.0/typescript.min.js"></script>
+    <script>
+        System.config({
+            transpiler: 'typescript',
+            defaultJSExtensions: false,
+            packages: {'src': {defaultExtension: 'ts'}} 
+        });
+        System.import("src/app").then(function(app){
+           app.main();
+        });
+    </script>
+</head>
+<body>
+    <h5>Please open console to view script execute.</h5>
+</body>
+</html>

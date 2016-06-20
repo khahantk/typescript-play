@@ -1,0 +1,22 @@
+<html>
+
+<head>
+    <title></title>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/systemjs/0.19.26/system.js"></script>
+    <script>
+        System.config({
+            "baseURL": "dist",
+            defaultJSExtensions: true,
+        });
+        System.import("app").then(function(app){
+            //var ap = new App();
+           app.main();
+        });
+    </script>
+</head>
+
+<body>
+    Hello world 2
+</body>
+
+</html>

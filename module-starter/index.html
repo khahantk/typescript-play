@@ -1,0 +1,18 @@
+<html>
+<head>
+    <title>Typescript Modules Starter</title>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/systemjs/0.19.26/system.js"></script>
+    <script>
+        System.config({
+            "baseURL": "dist",
+            defaultJSExtensions: true,
+        });
+        System.import("app").then(function(app){
+           app.main();
+        });
+    </script>
+</head>
+<body>
+    <h5>Please open console to view script execute.</h5>
+</body>
+</html>

@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "module": "system",
+        "target": "es5",
+        "noImplicitAny": false,
+        "outDir": "dist/",
+       // "outFile": "dist/bundle.js",
+        "sourceMap": false
+    },
+    "exclude": [
+        "node_modules"
+    ]
+}

@@ -1,0 +1,11 @@
+typescript-systemjs-starter/dist
+typescript-systemjs-starter/typings
+
+namespace-starter/dist
+namespace-starter/typings
+
+module-starter/dist
+module-starter/typings
+
+examples/dist
+examples/typings
